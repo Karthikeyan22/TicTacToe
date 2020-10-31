@@ -1,0 +1,38 @@
+body{
+    background-color: gray;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #443b8a;
+    width: 306px;
+    margin: 80px auto;
+    border-radius: 30px;
+  }
+  .griditem {
+    background-color: #b1a0be;
+    border: 1px solid #443b8a;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+  }
+  h2{
+      text-align: center;
+      font-size: 40px;
+      margin-left: 50px;
+  }
+  button
+  {
+      margin-left: 650px;
+      text-align: center;
+      width: 100px;
+      height: 50px;
+      background-color: red;
+      border: 1px solid red;
+      border-radius: 30px;
+      color: wheat;
+      font-size: 20px;
+      font-weight: bold;
+  }
